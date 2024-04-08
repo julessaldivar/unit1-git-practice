@@ -145,7 +145,23 @@ To https://github.com/julessaldivar/unit1-git-practice.git
 branch 'main' set up to track 'origin/main'.
 
 ### Step 6
-
+touch menu.txt
+ls
+menu.txt  my-steps.txt  plants/  proteins/  sweets/  veggies/
+git add .
+git commit -m 'starting menu'
+[main 8161472] starting menu
+ 2 files changed, 95 insertions(+), 32 deletions(-)
+ create mode 100644 menu.txt
+git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.41 KiB | 724.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/julessaldivar/unit1-git-practice.git
+   8ac0b0d..8161472  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
